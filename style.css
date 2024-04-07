@@ -1,0 +1,51 @@
+* div {
+    border: 1px solid blue;
+    padding: 5px;
+}
+.container{
+    color:red;
+}
+#container2{
+    font-size: 20px;
+}
+ul>li{
+    color:purple;
+}
+div#container1 + div{
+    background-color: yellow;
+}
+input[type=text] {
+    border: 5px solid orange;
+}
+ul > li :first-child {
+    font-size: larger;
+}
+ul > li :last-child {
+    font-size: smaller;
+}
+li:nth-child(even) {
+    background-color: pink;
+}
+li:nth-child(odd) {
+    background-color: green;
+}
+
+p:hover{
+    color:red;
+}
+
+p::first-line{
+    font-size:20px
+}
+
+.paragraph::before{
+    content:"PCU/////"
+}
+
+::selection{
+    background-color: black;
+}
+
+div.special p span{
+    background-color:black;
+}
